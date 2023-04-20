@@ -1,0 +1,50 @@
+@media (min-width:540px){
+    .menu__item{
+        margin-left: 5rem;
+    }
+    .nav-logo__img{
+        width: 13.7rem;
+        height: 4.6rem;
+    }    
+}
+
+@media (min-width:768px){
+    .header-content{
+        line-height: 9rem;
+    }
+    .header-content__title{
+        font-size: 10rem;
+        
+    }
+    .header-content__title2{
+        /* max-width: 68rem; */
+        font-size: 8rem;
+        
+    }
+    .header-content__caption{
+        font-size: 1.5rem;
+        padding-left: 1.5rem;
+
+    }
+    .header-content__line{
+        width:41rem;
+    }
+    
+}
+
+@media (min-width:992px){
+    
+}
+
+@media (min-width:1200px){
+    .nav{
+        padding: 2rem 13rem 0 13rem;
+    }
+}
+
+@media (min-width:1400px){
+
+}
+@media (min-width:2400){
+
+}

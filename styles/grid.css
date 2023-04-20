@@ -1,0 +1,37 @@
+.container{
+    width: 100%;
+    padding-left: 2.3rem;
+    padding-right: 2.3rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media (min-width:540px){
+    .container{
+        width: 45rem;
+    }
+}
+
+@media (min-width:768px){
+    .container{
+        width: 72rem;
+    }
+}
+
+@media (min-width:992px){
+    .container{
+        width: 75rem;
+    }
+}
+
+@media (min-width:1200px){
+    .container{
+        width:88rem ;
+    }
+}
+
+@media (min-width:1400px){
+    .container{
+        width:105rem ;
+    }
+}
