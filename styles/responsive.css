@@ -9,8 +9,14 @@
 }
 
 @media (min-width:768px){
+    .header{
+        height: 80rem;
+    }
+    .menu__item{
+        font-size: 2rem;
+    }
     .header-content{
-        line-height: 9rem;
+        line-height: 10rem;
     }
     .header-content__title{
         font-size: 10rem;
@@ -27,7 +33,7 @@
 
     }
     .header-content__line{
-        width:41rem;
+        width:53rem;
     }
     
 }

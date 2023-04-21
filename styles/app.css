@@ -51,6 +51,7 @@ a{
 }
 .menu{
     display: flex;
+    font-size: 1.2rem;
 }
 .menu__items{
     display: flex;
@@ -65,10 +66,10 @@ a{
 }
 .menu__link--line{
     content: " ";
-    width: 4.4rem;
+    width: 3.2rem;
     background-color: var(--primary-color);
     height: .26rem;
-    margin-top: .1rem;
+    margin-top: -.2rem;
 }
 .menu__link:hover{
     color: var(--primary-color);
@@ -86,24 +87,24 @@ a{
     margin-top: 16rem;
 }
 .header-content__title{
-    font-size: 7rem;
+    font-size: 4.5rem;
     font-family: var(--bold-font);
     /* max-width: 68rem; */
     width: 100%;
 }
 .header-content__title2{
     /* max-width: 68rem; */
-    font-size: 5rem;
+    font-size: 3.5rem;
     font-family: var(--bold-font);
     width: 100%;
 }
 .header-content__line{
     content: " ";
-    width: 28rem;
-    height: 0.26rem;
+    width: 24rem;
+    height: 0.3rem;
     background-color: var(--primary-color);
 }
 .header-content__caption{
     font-family: var(--secondary-font);
-    font-size: 1rem;
+    font-size: .8rem;
 }
