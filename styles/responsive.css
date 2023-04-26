@@ -6,6 +6,12 @@
         width: 13.7rem;
         height: 4.6rem;
     }    
+    .aboutus-right{
+        height: 25rem;
+    }
+    .popular-content__line{
+        width: 30rem;
+    }
 }
 
 @media (min-width:768px){
@@ -14,6 +20,9 @@
     }
     .menu__item{
         font-size: 2rem;
+    }
+    .menu__link--line {
+        width: 5.2rem;
     }
     .header-content{
         line-height: 10rem;
@@ -35,7 +44,49 @@
     .header-content__line{
         width:53rem;
     }
-    
+    .bg-black{
+        background-color: var(--black);
+        width: 50%;
+    }
+    .aboutus{
+        flex-direction: row;
+    }
+    .aboutus-right {
+        max-width: 50%;
+    }
+    .aboutus-left{
+        padding: 2rem 3rem 5rem 10rem;
+    }
+    .aboutus-right{
+        padding-left: 3rem;
+        margin-top: 0rem;
+        height: 30rem;
+    }
+    .aboutus-right__btn{
+        left: 3rem;
+    }
+    .popular-content__little-title{
+        font-size: .7rem;
+    }
+    .popular-content__title{
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        font-size: 1.7rem;
+    }
+    .popular-content__line{
+        width: 20rem;
+    }
+    .popular-content__caption{
+        font-size: .7rem;
+    }
+    .popular-content__btn{
+        width: 10rem;
+        height: 2rem;
+        margin-top: 1rem;
+    }
+    /* .popular{
+        flex-direction: row;
+    } */
 }
 
 @media (min-width:992px){
@@ -46,11 +97,51 @@
     .nav{
         padding: 2rem 13rem 0 13rem;
     }
+    .popular-content__little-title{
+        font-size: 1.2rem;
+    }
+    .popular-content__title{
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        font-size: 2.7rem;
+    }
+    .popular-content__line{
+        width:24rem ;
+        height: .3rem;
+    }
+    .popular-content__caption{
+        font-size: 1.2rem;
+        margin-top: 1rem;
+    }
+    .popular-content__btn{
+        margin-top: 2rem;
+    }
 }
 
 @media (min-width:1400px){
-
+    .popular-content__btn{
+        width:15rem ;
+        height: 3rem;
+    }
 }
 @media (min-width:2400){
-
+    .popular-content{
+        padding: 0 11rem;
+    }
+}
+/* MAX WIDTH */
+@media (max-width:768px){
+    .aboutus-right__wrapper{
+        margin: 0 auto;
+    }
+    .popular-images{
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+}
+@media (max-width:540px){
+    .popular-images{
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
 }
