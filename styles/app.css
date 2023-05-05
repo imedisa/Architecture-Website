@@ -75,7 +75,7 @@ a{
 }
 .menu__link{
     color: var(--white-color);
-    transition: all 250ms ease-in-out;
+    transition: all 100ms ease-in-out;
 }
 .menu__link--line{
     content: " ";
@@ -198,7 +198,7 @@ a{
 .aboutus-right__btn:hover{
     background-color: var(--primary-color);
     border: .15rem solid var(--primary-color);
-    transition: all 250ms ease-in-out;
+    transition: all 100ms ease-in-out;
 
 }
 .aboutus-socialmedia{
@@ -225,7 +225,6 @@ a{
     margin-top: 3rem;
     display: flex;
     flex-wrap: wrap;
-    /* flex-direction: column; */
 }
 .popular-images{
     flex:0 0 33.33%;
@@ -284,5 +283,193 @@ a{
     background-color: var(--primary-color);
     border: .15rem solid var(--primary-color);
     color: var(--black);
-    transition: all 250ms ease-in-out;
+    transition: all 100ms ease-in-out;
+}
+/* POSTS */
+.posts{
+    display: flex;
+    flex-direction: column;
+    margin-top: 5rem;
+}
+.post{
+    margin-top: 4rem;
+}
+.post-wrapper--first{
+    display: flex;
+    flex-direction: column;
+}
+.post__title{
+    /* font-family: var(--semibold-font); */
+    font-size: 1.8rem;
+}
+.post__title--line{
+    width: 15rem;
+    height: .3rem;
+    background-color: var(--primary-color);
+    margin: 1.2rem 0;
+}
+.post__caption{
+    font-size: 1.1rem;
+    line-height: 1.3rem;
+}
+.post__wrapper{
+    display: flex;
+    flex-direction: row;
+}
+.line{
+    content: " ";
+    width: 1rem;
+    height: 22rem;
+    background-color: var(--primary-color);
+}
+.post-line{
+    
+}
+.post-content{
+    margin-left: 1.5rem;
+}
+/* SOMEONE */
+.someone-date-wrapper{
+    display: flex;
+    font-size: 1.2rem;
+    color: var(--dark-grey);
+}
+.someone{
+    display: flex;
+}
+.someone__svg{
+    margin-right: .2rem;
+
+}
+.someone__img{
+    transform: scale(.7);
+}
+.someone__text{
+    margin-right: 1.2rem;
+
+}
+/* DATE */
+.date{
+    display: flex;
+}
+.date__svg{
+    margin-right: .2rem;
+
+}
+.date__img{
+    transform: scale(.7);
+
+}
+.date__text{
+
+}
+.post-content__title{
+    font-size: large;
+    margin-bottom: 2rem;
+    line-height: 1.5rem;
+}
+.post-content__caption{
+    font-size: small;
+    line-height: 1.2rem;
+    color: var(--dark-grey);
+    margin-bottom: 3rem;
+}
+.comment{
+    display: flex;
+    font-size: 1.2rem;
+    align-items: center;
+    color: var(--dark-grey);
+}
+.comment__svg{
+    transform: scale(.7);
+    margin-right: .2rem;
+}
+.comment__text{
+
+}
+.btn-wrapper{
+    display:flex ;
+    justify-content: flex-end;
+}
+.btn-wrapper .btn{
+    margin-right: 0;
+}
+.posts__btn{
+    margin-top: 3.5rem;
+}
+.posts__btn:hover{
+    background-color: var(--primary-color);
+    border: .15rem solid var(--primary-color);
+    color: var(--black);
+    transition: all 100ms ease-in-out;
+}
+/* SUBSCRIBE */
+.subscribe{
+    text-align: center;
+    background-color: var(--light-grey);
+    margin-top: 3rem;
+}
+.subscribe__title{
+    padding: 2.5rem 0;
+    font-size:1.8rem ;
+}
+.subscribe__caption{
+    font-size: 1rem;
+    color: var(--dark-grey);
+    line-height: 1.2rem;
+}
+.subscribe__input{
+    display: flex;
+    justify-content: center;
+    padding: 2.5rem;
+    height: 7.8rem;
+}
+.subscribe__email{
+    border: none;
+    outline: none;
+    border: 1px solid var(--black);
+    font-size: .8rem;
+    padding-left: 2rem;
+    display: flex;
+    align-items: center;
+    padding-right: 8rem;
+}
+.subscribe__email:focus{
+    border: 1px solid var(--primary-color);
+}
+.subscribe__button{
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border: 1px solid var(--black);
+    background-color: var(--black);
+    color: var(--white-color);
+    font-size: .6rem;
+    width: 7rem;
+}
+.subscribe__button:hover{
+    background-color: var(--primary-color);
+    color: var(--black);
+    border: 1px solid var(--primary-color);
+}
+/* FOOTER */
+.footer{
+    margin-top: 2rem;
+    font-size: .88rem;
+    color: var(--dark-grey);
+    text-align: center;
+}
+.footer__caption{
+
+}
+.footer__social-media{
+
+}
+.footer__link{
+
+}
+.footer__img{
+    width: 1.5rem;
+    height: 1.5rem;
+    margin: 1rem .7rem;
 }
